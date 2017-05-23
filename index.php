@@ -15,7 +15,7 @@ define("APP", LBOTP.'/app');
 define("MODULE",'app');
 define("DEBUG", true);
 
-include "vendor/autoload.php";gggg
+include "vendor/autoload.php";
 
 if(DEBUG){
 	$whoops = new \Whoops\Run;
